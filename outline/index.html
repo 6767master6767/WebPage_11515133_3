@@ -150,6 +150,7 @@
       background-color: var(--accent-gold);
       color: var(--primary-navy);
     }
+
     .btn-gold:hover {
       background-color: var(--accent-gold-hover);
       color: #fff;
@@ -157,29 +158,22 @@
       box-shadow: 0 8px 20px rgba(245, 158, 11, 0.35);
     }
 
-    .btn-blue {
-      background-color: var(--primary-blue);
+    .btn-outline {
+      border: 1.5px solid rgba(255, 255, 255, 0.3);
       color: #ffffff;
-    }
-    .btn-blue:hover {
-      background-color: #0b2d4f;
-      transform: translateY(-2px);
-      box-shadow: 0 8px 20px rgba(15, 61, 105, 0.3);
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(8px);
     }
 
-    .btn-outline {
-      background: transparent;
-      border: 1.5px solid rgba(255, 255, 255, 0.6);
-      color: #ffffff;
-    }
     .btn-outline:hover {
-      background-color: rgba(255, 255, 255, 0.12);
-      border-color: #ffffff;
+      border-color: var(--sky-blue);
+      color: var(--sky-blue);
+      background: rgba(56, 189, 248, 0.1);
       transform: translateY(-2px);
     }
 
     /* ==========================================================================
-       Header & Navbar
+       Header & Navigation
        ========================================================================== */
     .site-header {
       position: fixed;
@@ -188,9 +182,9 @@
       width: 100%;
       z-index: 1000;
       background: rgba(9, 26, 46, 0.88);
-      backdrop-filter: blur(14px);
-      -webkit-backdrop-filter: blur(14px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(56, 189, 248, 0.15);
       transition: var(--transition);
     }
 
@@ -1477,7 +1471,7 @@
 
   <!-- ==========================================================================
        Brand Pillars (品牌風格: 高階咖啡豆)
-       ========================================================================== */
+       ========================================================================== -->
   <section class="section pillars-section" id="about">
     <div class="container">
       <div style="text-align: center; margin-bottom: 20px;">
@@ -1940,7 +1934,7 @@
       </div>
 
       <!-- Column 2: Quick Links -->
-      <div>
+      <div class="footer-nav">
         <h4 class="footer-title">快速導覽</h4>
         <ul class="footer-links">
           <li><a href="#about">品牌堅持</a></li>
