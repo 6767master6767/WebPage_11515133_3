@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="藍天咖啡，為手沖咖啡愛好者挑選當季精品咖啡豆，讓每一杯都清澈、明亮、值得細品。">
-  <title>藍天咖啡｜讓風味，慢慢抵達</title>
+  <meta name="description" content="黑軌咖啡，為手沖咖啡愛好者挑選當季精品咖啡豆，讓每一杯都清澈、明亮、值得細品。">
+  <title>黑軌咖啡｜讓風味，慢慢抵達</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&family=Noto+Serif+TC:wght@600;700;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
@@ -19,7 +19,7 @@
       --muted: #607482;
       --line: #d7e4e8;
       --sand: #e5b66b;
-      --shadow: 0 18px 50px rgba(6, 39, 66, .13);
+      --shadow: 0 18px 50px rgba(97, 62, 255, 0.13);
     }
 
     * { box-sizing: border-box; }
@@ -215,17 +215,6 @@
     .video-frame { position: relative; overflow: hidden; padding: 43px 0 30px; background: linear-gradient(90deg, var(--mist) 0 58%, #f5f9f9 58%); }
     .video-frame::before { position: absolute; top: 43px; left: 0; width: 86px; height: 1px; background: var(--sky); box-shadow: 0 10px 0 var(--sky), 0 20px 0 var(--sky); content: ""; }
     .video-frame iframe { position: relative; z-index: 1; display: block; width: 560px; max-width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0 auto; border: 0; background: var(--navy); box-shadow: var(--shadow); }
-    .pour-rings, .pour-rings::before, .pour-rings::after { position: absolute; border: 1px solid rgba(12,91,149,.36); border-radius: 50%; content: ""; }
-    .pour-rings { top: 85px; left: 50%; width: 192px; height: 192px; transform: translateX(-50%); }
-    .pour-rings::before { inset: 22px; }
-    .pour-rings::after { inset: 47px; }
-    .dripper { position: absolute; z-index: 1; top: 118px; left: 50%; width: 128px; height: 164px; transform: translateX(-50%); }
-    .dripper-top { width: 128px; height: 60px; border: 2px solid var(--blue); clip-path: polygon(0 0, 100% 0, 75% 100%, 25% 100%); background: rgba(255,255,255,.8); }
-    .dripper-top::after { position: absolute; top: 9px; left: 18px; width: 92px; height: 31px; border: 1px solid rgba(12,91,149,.55); border-radius: 50%; content: ""; }
-    .dripper-body { position: absolute; top: 58px; left: 32px; width: 64px; height: 80px; border: 2px solid var(--blue); border-top: 0; clip-path: polygon(12% 0, 88% 0, 100% 100%, 0 100%); background: rgba(255,255,255,.42); }
-    .dripper-base { position: absolute; bottom: 0; left: 15px; width: 98px; height: 21px; border: 2px solid var(--blue); border-radius: 50%; background: #fff; }
-    .brew-data { position: absolute; right: 25px; bottom: 22px; display: grid; justify-items: end; color: var(--blue); font-family: "Playfair Display", serif; font-size: 13px; font-weight: 700; letter-spacing: .05em; line-height: 1.5; }
-    .brew-data small { color: var(--muted); font-family: "Noto Sans TC", sans-serif; font-size: 10px; letter-spacing: .12em; }
     .brew-copy .section-copy { margin-bottom: 28px; }
     .brew-steps { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
     .brew-steps li { display: grid; grid-template-columns: 55px 1fr; gap: 12px; padding: 19px 0; border-bottom: 1px solid var(--line); }
@@ -323,13 +312,13 @@
     <nav class="nav-bar wrap" aria-label="主要導覽">
       <a class="brand" href="#top" aria-label="回到藍天咖啡首頁">
         <span class="brand-mark" aria-hidden="true">B</span>
-        <span class="brand-name">藍天咖啡 <small>BLUE SKY COFFEE</small></span>
+        <span class="brand-name">黑軌咖啡 <small>BLACK COFFEE</small></span>
       </a>
       <button class="menu-toggle" type="button" aria-controls="navLinks" aria-expanded="false" aria-label="開啟導覽選單">☰</button>
       <ul class="nav-links" id="navLinks">
-        <li><a href="#story">我們的故事</a></li>
+        <li><a href="#story">我們的堅持</a></li>
         <li><a href="#coffee">本季選豆</a></li>
-        <li><a href="#brew">沖煮日常</a></li>
+        <li><a href="#brew">67日常</a></li>
         <li><a class="nav-cta" href="#visit">訂閱風味通信</a></li>
       </ul>
     </nav>
@@ -339,18 +328,18 @@
     <section class="hero" aria-labelledby="heroTitle">
       <div class="hero-inner">
         <div class="hero-content reveal">
-          <p class="eyebrow">HAND BREWED · SLOWLY ROASTED</p>
-          <h1 class="hero-title" id="heroTitle">讓風味，在<span class="sky-text">藍天</span>下<br>慢慢抵達。</h1>
-          <p class="hero-lede">藍天咖啡為喜歡手沖的您，挑選值得細品的單一產區咖啡豆。從第一縷花香，到最後一口回甘，每一杯都有屬於自己的晴朗天氣。</p>
+          <p class="eyebrow">SIX SEVEN · NIGA ROASTED</p>
+          <h1 class="hero-title" id="heroTitle">讓風味，在<span class="sky-text">黑軌</span>下<br>慢慢抵達。</h1>
+          <p class="hero-lede">黑軌咖啡為喜歡閃身步的你，挑選值得細品的單一產區咖啡豆。從第一縷花香，到最後一口回甘，每一杯都有自己的晴朗天氣。</p>
           <div class="hero-actions">
-            <a class="button button-primary" href="#coffee">探索本季咖啡豆 →</a>
+            <a class="button button-primary" href="#coffee">探索本季風味 →</a>
             <a class="button button-secondary" href="#story">認識藍天</a>
           </div>
-          <p class="hero-place">TAIPEI · TAIWAN · EST. 2025</p>
+          <p class="hero-place">China · TAIWAN · EST. 1800</p>
         </div>
         <div class="hero-art reveal" aria-label="窗邊手沖咖啡與山景">
-          <img class="hero-photo" src="images/hero.png" width="400" height="300" alt="窗邊的手沖咖啡與遠方山景">
-          <div class="art-note" aria-hidden="true"><strong>92°C</strong><span>理想水溫</span><small>細細喚醒香氣</small></div>
+          <img class="hero-photo" src="images/hero.jpg" width="400" height="300" alt="窗邊的手沖咖啡與遠方山景">
+          <div class="art-note" aria-hidden="true"><strong>105°C</strong><span>理想水溫</span><small>細細喚醒香氣</small></div>
         </div>
       </div>
       <span class="scroll-hint" aria-hidden="true">SCROLL TO DISCOVER</span>
@@ -360,14 +349,14 @@
       <div class="wrap story-grid">
         <div class="story-visual reveal" aria-hidden="true">
           <div class="story-disc"><b>慢一點，<br>更清楚。</b><span>LET THE FLAVOUR SPEAK</span></div>
-          <div class="story-card"><span class="card-label">BLUE SKY NOTE</span><p>一杯好咖啡，從來不是匆忙完成的事。</p></div>
+          <div class="story-card"><span class="card-label">BLACK SKY NOTE</span><p>一杯好咖啡，從來不是匆忙完成的事。</p></div>
         </div>
         <div class="story-copy reveal">
-          <p class="eyebrow">OUR PHILOSOPHY</p>
+          <p class="eyebrow">OUR SHIT</p>
           <h2 class="section-title" id="storyTitle">在一杯之間，看見產地的<span class="blue-word">晴朗</span>。</h2>
           <p>我們相信，精品咖啡的美好不該被複雜掩蓋。以小批次烘焙留住豆子的個性，再用穩定、誠實的手沖，讓風土與時間在杯中變得清晰。</p>
           <p>給懂得放慢腳步的人，也給每一個想重新認識咖啡的人。</p>
-          <a class="text-link" href="#brew">看看我們如何沖煮 →</a>
+          <a class="text-link" href="#brew">看看我們如何67 →</a>
         </div>
       </div>
     </section>
@@ -410,7 +399,7 @@
     <section class="brew" id="brew" aria-labelledby="brewTitle">
       <div class="wrap brew-grid">
         <div class="video-frame reveal">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/hMOYa4EBntI" title="藍天咖啡沖煮影片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/hMOYa4EBntI" title="黑軌咖啡沖煮影片" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
         <div class="brew-copy reveal">
           <p class="eyebrow">A QUIET RITUAL</p>
@@ -418,7 +407,7 @@
           <p class="section-copy">不需要繁複儀式，只要三個安靜的步驟。每一個參數，都是為了讓你更靠近豆子原本的樣子。</p>
           <ol class="brew-steps">
             <li><span class="step-number">01</span><div class="step-content"><strong>研磨，先聞見期待</strong><p>15g 中細研磨，讓香氣從指尖開始展開。</p></div></li>
-            <li><span class="step-number">02</span><div class="step-content"><strong>悶蒸，等待第一個呼吸</strong><p>以 92°C 熱水浸潤 30 秒，喚醒甜感與層次。</p></div></li>
+            <li><span class="step-number">02</span><div class="step-content"><strong>悶蒸，等待第一個呼吸</strong><p>以 105°C 熱水浸潤 67 秒，喚醒甜感與層次。</p></div></li>
             <li><span class="step-number">03</span><div class="step-content"><strong>注水，保持自己的節奏</strong><p>穩定畫圈，讓 240ml 的清澈在 2 分 45 秒完成。</p></div></li>
           </ol>
         </div>
@@ -427,9 +416,9 @@
 
     <section class="visit" id="visit" aria-labelledby="visitTitle">
       <div class="wrap visit-inner reveal">
-        <p class="eyebrow">THE BLUE SKY LETTER</p>
+        <p class="eyebrow">THE BLACK GHOST LETTER</p>
         <h2 class="visit-title" id="visitTitle">把下一杯好咖啡，寄到你的日常裡。</h2>
-        <p class="visit-copy">每月一封風味通信，分享新豆、沖煮靈感與只給會員的小小驚喜。</p>
+        <p class="visit-copy">每月一封風味通信，分享67、沖煮靈感與只給會員的小小驚喜。</p>
         <form class="subscribe-form" id="subscribeForm">
           <input type="email" aria-label="電子郵件地址" placeholder="輸入你的電子郵件地址" required>
           <button class="button button-primary" type="submit">訂閱風味通信</button>
@@ -442,19 +431,19 @@
     <div class="wrap">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a class="brand" href="#top" aria-label="回到藍天咖啡首頁"><span class="brand-mark" aria-hidden="true">B</span><span class="brand-name">藍天咖啡 <small>BLUE SKY COFFEE</small></span></a>
+          <a class="brand" href="#top" aria-label="回到藍天咖啡首頁"><span class="brand-mark" aria-hidden="true">B</span><span class="brand-name">黑軌咖啡 <small>BLACK COFFEE</small></span></a>
           <p>為喜愛手沖咖啡的你，留下一段慢慢品味、微微放晴的時間。</p>
         </div>
         <div>
-          <p class="footer-title">網站主題</p>
-          <ul class="footer-links"><li><a href="#story">我們的故事</a></li><li><a href="#coffee">本季選豆</a></li><li><a href="#brew">沖煮日常</a></li></ul>
+          <p class="footer-title">Explore</p>
+          <ul class="footer-links"><li><a href="#story">我們的堅持</a></li><li><a href="#coffee">本季67</a></li><li><a href="#brew">沖煮日常</a></li></ul>
         </div>
         <div>
-          <p class="footer-title">聯絡我們</p>
-          <ul class="footer-links"><li><a href="mailto:hello@bluesky.coffee">hello@bluesky.coffee</a></li><li>台中市西屯區僑光路 100 號</li><li>每日 10:00 — 19:00</li></ul>
+          <p class="footer-title">Contact</p>
+          <ul class="footer-links"><li><a href="mailto:hello@NIGA.coffee">hello@NIGA.coffee</a></li><li>尼格市大安區黑軌路 67 號</li><li>每日 10:00 — 19:00</li></ul>
         </div>
       </div>
-      <div class="footer-bottom"><span>© 2025 BLUE SKY COFFEE. ALL RIGHTS RESERVED.</span><span>BREW SLOW · LIVE BRIGHT</span></div>
+      <div class="footer-bottom"><span>© 2077 Cyber SKY COFFEE. ALL RIGHTS RESERVED.</span><span>BREW SLOW · LIVE BRIGHT</span></div>
     </div>
   </footer>
 
