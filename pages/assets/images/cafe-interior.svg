@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">咖啡空間示意圖</title>
+  <desc id="desc">窗戶、木桌、椅子與盆栽構成的暖色咖啡空間插畫。</desc>
+  <rect width="900" height="620" fill="#e9dfcf"/>
+  <rect x="62" y="48" width="776" height="415" fill="#f7f3ea"/>
+  <rect x="100" y="82" width="405" height="315" fill="#adc1c6"/>
+  <path d="M100 299c78-73 154-42 220-88 66-47 120-32 185 1v185H100z" fill="#788f86"/>
+  <path d="M100 340c96-41 174-22 256-57 49-21 91-13 149 8v106H100z" fill="#526e66"/>
+  <path d="M302 82v315m-202-155h405" stroke="#f7f3ea" stroke-width="12"/>
+  <rect x="550" y="105" width="205" height="14" fill="#bd9a74"/>
+  <rect x="570" y="119" width="15" height="130" fill="#bd9a74"/>
+  <rect x="724" y="119" width="15" height="130" fill="#bd9a74"/>
+  <path d="M584 174h127" stroke="#9b7459" stroke-width="7"/>
+  <rect x="620" y="143" width="42" height="31" rx="3" fill="#24445a"/>
+  <rect y="463" width="900" height="157" fill="#9b7459"/>
+  <path d="M0 497h900M0 586h900" stroke="#805c45" stroke-width="5" opacity=".55"/>
+  <rect x="195" y="409" width="475" height="24" rx="3" fill="#563b30"/>
+  <path d="M225 433v126m414-126v126" stroke="#563b30" stroke-width="17"/>
+  <path d="M337 433v106m-42 0h85" stroke="#3e2a23" stroke-width="12"/>
+  <path d="M545 433v106m-42 0h85" stroke="#3e2a23" stroke-width="12"/>
+  <ellipse cx="427" cy="408" rx="54" ry="9" fill="#bd9a74"/>
+  <path d="M399 377h55l-5 30h-45z" fill="#f7f3ea"/>
+  <ellipse cx="426" cy="378" rx="28" ry="7" fill="#563b30"/>
+  <path d="M783 350h35v74h-35z" fill="#bd9a74"/>
+  <path d="M800 350c-42-44-12-70 1-83 28 23 30 51-1 83zm-2 4c-44-5-55-37-48-57 34 6 50 25 48 57zm4 0c5-43 36-56 57-47-6 33-25 49-57 47z" fill="#657f68"/>
+</svg>

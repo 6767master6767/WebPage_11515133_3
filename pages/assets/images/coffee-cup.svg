@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 620" role="img" aria-labelledby="title desc">
+  <title id="title">窗邊的一杯咖啡</title>
+  <desc id="desc">暖色桌面、咖啡杯與藍色天空的簡潔示意插畫。</desc>
+  <rect width="720" height="620" fill="#e9dfcf"/>
+  <rect x="78" y="58" width="564" height="342" rx="4" fill="#f7f3ea"/>
+  <rect x="102" y="82" width="516" height="294" fill="#afc2c8"/>
+  <path d="M102 275c83-58 155-22 226-73 84-59 159-42 290 8v166H102z" fill="#738f89"/>
+  <path d="M102 313c90-49 182-17 263-49 97-39 167-14 253 24v88H102z" fill="#526e66"/>
+  <path d="M359 82v294M102 230h516" stroke="#f7f3ea" stroke-width="13"/>
+  <rect y="400" width="720" height="220" fill="#9b7459"/>
+  <path d="M0 442h720M0 568h720" stroke="#805c45" stroke-width="5" opacity=".55"/>
+  <ellipse cx="365" cy="492" rx="172" ry="37" fill="#6e4f3c" opacity=".25"/>
+  <path d="M260 314h213l-18 159c-3 28-24 49-52 49h-73c-28 0-49-21-52-49z" fill="#f7f3ea"/>
+  <ellipse cx="366" cy="316" rx="107" ry="24" fill="#fffaf1"/>
+  <ellipse cx="366" cy="320" rx="83" ry="14" fill="#54382b"/>
+  <path d="M470 352h42c36 0 44 92-3 103h-39" fill="none" stroke="#f7f3ea" stroke-width="18"/>
+  <path d="M290 490h153" stroke="#d2c3ad" stroke-width="5"/>
+  <circle cx="540" cy="475" r="16" fill="#24445a"/>
+  <path d="M540 444v-14m0 104v-14m31-31h14m-104 0h14m67-22 10-10m-74 74 10-10m54 0 10 10m-74-74 10 10" stroke="#24445a" stroke-width="4" stroke-linecap="round"/>
+</svg>
